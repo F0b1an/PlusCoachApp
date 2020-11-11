@@ -1,0 +1,11 @@
+// Variables
+@import 'variables';
+
+@import 'mixins/styling';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'pages/mood';
+@import 'pages/login';
+@import 'pages/admin-dashboard';
+@import 'pages/user-dashboard';

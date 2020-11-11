@@ -1,0 +1,47 @@
+body {
+	background-color: $blue;
+	min-height: 100vh;
+}
+
+nav { background-color: $white;}
+
+.card-header {
+	background-color: $white;
+	border-color: $white;
+}
+
+.card-body {
+
+	.col-md-10 {
+		text-align: center;
+		margin: auto;
+	}
+
+	.form-group:last-child .btn:first-child {
+		width: 100%;
+		border-radius: 0;
+		background-color: $red;
+		border-color: $red;
+	}
+
+	.form-group:last-child a{
+		width: 100%;
+		border-radius: 0;
+		background-color: $dark-grey;
+		border-color: $dark-grey;
+	}
+
+	.btn-primary {
+    	margin: 10px 0;
+    	padding: 15px 0;
+	}
+
+	.btn-link {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.form-check {
+		text-align: left;
+	}
+}
